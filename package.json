@@ -1,0 +1,28 @@
+{
+  "name": "node-exec-promise",
+  "version": "0.0.1",
+  "description": "Execute commands from Node.js and get a Promise back.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianweb/node-exec-promise.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "exec",
+    "execFile",
+    "promise",
+    "gulp"
+  ],
+  "author": "Fabian Pirklbauer",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/fabianweb/node-exec-promise/issues"
+  },
+  "homepage": "https://github.com/fabianweb/node-exec-promise#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
