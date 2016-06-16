@@ -4,7 +4,7 @@
   "description": "Execute commands from Node.js and get a Promise back.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabianweb/node-exec-promise.git"
+    "url": "git+https://github.com/fabiandev/node-exec-promise.git"
   },
   "main": "index.js",
   "keywords": [
@@ -19,9 +19,9 @@
   "dependencies": {},
   "devDependencies": {},
   "bugs": {
-    "url": "https://github.com/fabianweb/node-exec-promise/issues"
+    "url": "https://github.com/fabiandev/node-exec-promise/issues"
   },
-  "homepage": "https://github.com/fabianweb/node-exec-promise#readme",
+  "homepage": "https://github.com/fabiandev/node-exec-promise#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
