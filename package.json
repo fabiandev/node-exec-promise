@@ -1,5 +1,5 @@
 {
-  "name": "nexecp",
+  "name": "node-exec-promise",
   "version": "0.1.3",
   "description": "Execute commands from Node.js and get a Promise back.",
   "repository": {
@@ -14,8 +14,8 @@
     "promise",
     "gulp"
   ],
-  "author": "Benoît Hubert",
-  "contributors": ["Fabian Pirklbauer"],
+  "author": "Fabian Pirklbauer",
+  "contributors": ["Benoît Hubert"],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {},
