@@ -15,20 +15,20 @@ function executeFile(file, options) {
 function doExecute(resolve, reject, command) {
   child_process.exec(command, function(error, stdout, stderr){
   	if (error) {
-      return reject(stderr);
+      return reject(error);
     }
 
-    resolve(stdout);
+    resolve({ stdout, stderr });
   });
 }
 
 function doExecuteFile(resolve, reject, file, options) {
   child_process.execFile(file, options, function(error, stdout, stderr){
   	if (error) {
-      return reject(stderr);
+      return reject(error);
     }
 
-    resolve(stdout);
+    resolve({ stdout, stderr });
   });
 }
 
