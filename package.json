@@ -1,6 +1,6 @@
 {
   "name": "node-exec-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Execute commands from Node.js and get a Promise back.",
   "repository": {
     "type": "git",
