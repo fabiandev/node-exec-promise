@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "target": "es5",
+    "removeComments": false,
+    "sourceMap": false,
+    "lib": [
+      "es2015"
+    ]
+  },
+  "files": [
+    "index.ts"
+  ]
+}
