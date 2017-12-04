@@ -6,7 +6,29 @@
 npm install --save node-exec-promise
 ```
 
-# Example Usage
+# Examples
+
+All examples can be used with both, `exec` and `execFile`.
+
+## TypeScript Usage Example
+
+```ts
+import { exec, execFile } from 'node-exec-promise';
+
+exec('ls -lah /tmp').then(out => {
+  console.log(out.stdout, out.stderr);
+}, err => {
+  console.error(err);
+});
+
+execFile('ls', ['-lah', '/tmp']).then(out => {
+  console.log(out.stdout, out.stderr);
+}, err => {
+  console.error(err);
+});
+```
+
+## JavaScript Usage Example
 
 ```js
 var exec = require('node-exec-promise').exec;
@@ -18,7 +40,7 @@ exec('ls -lah /tmp').then(function(out) {
 });
 ```
 
-# Example Gulp Usage
+## Gulp Usage Example
 
 ```js
 var execFile = require('node-exec-promise').execFile;
@@ -30,4 +52,12 @@ gulp.task('example', function(done) {
     // handle error
   });
 });
+```
+
+# Build
+
+```sh
+$ git clone https://github.com/fabiandev/node-exec-promise.git
+$ cd node-exec-promise
+$ yarn && yarn build
 ```
