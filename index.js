@@ -1,8 +1,8 @@
 var cp = require('child_process');
 
-function exec(command) {
+function exec(command, options) {
   return new Promise(function(resolve, reject) {
-    cp.exec(command, function(error, stdout, stderr) {
+    cp.exec(command, options, function(error, stdout, stderr) {
       if (error) {
         return reject(error);
       }
